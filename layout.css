@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    font-size: 1.5rem;
+    background-image: linear-gradient(#062645 , #2471A3);
+    color: #062645;
+   
+}
+html{
+
+    font-size: 62.5%;
+    font-family: "Noto Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+* , 
+* ::before , 
+* ::after{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color : #ececec;
+
+}
+.container{
+    width: 95%;
+    height: auto;
+    
+}
+.btn{
+    background-color: #CD5C5C;
+    color: white;
+    border: transparent;
+    border-radius: 1rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    cursor: pointer;
+ 
+}
+.btn__del{
+    background-color: #CD5C5C;
+    color: white ;
+    padding: 0.8rem;
+    border: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.btn__edit{
+    background-color: #2471A3;
+    color: white;
+    padding: 0.8rem;
+    border: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}

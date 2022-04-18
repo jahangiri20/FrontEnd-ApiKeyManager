@@ -1,0 +1,52 @@
+.title{
+    font-size: 4rem;
+    display: grid;
+    color: white;
+    padding: 2rem;
+    justify-content: center;
+    grid-auto-columns: auto
+}
+.api__division{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    border-radius: 0.7rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem  
+}
+.api__left{
+   padding: 2.5rem;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;   
+}
+.api__right{
+  
+}
+.inputs{
+    background-color: var(--primary_color);
+    border-color: transparent;
+    border-radius: 0.5rem;   
+    padding: 1rem 4rem 1rem 4rem;
+}
+.form__item1 , .form__item2 , .form__item3 , .button__sub{
+    padding: 0.7rem;
+}
+.button__sub{
+    text-align: center; 
+}
+.api__backgrand{
+    background-color: var(--primary_color);
+    border-radius: 0.8rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.api_table {
+    padding: 1rem;
+    cursor: pointer;
+}
+.title_disign  {
+    background-color: #062645;
+    color: white;
+    font-size: 2rem;
+}
+tr th{
+    padding: 1rem 3rem 1rem 3rem;
+}
