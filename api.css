@@ -38,18 +38,19 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 1rem;
 }
-.api_table {
-    
+.api_table { 
     border-collapse: collapse;
+    
 }
 .title_disign  {
     background-color: #062645;
     color: white;
     border-radius: 0.3rem;
 
+
 }
 tr th{
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1.3rem 3rem 1.3rem 3rem;
    
 }
 tr td{
