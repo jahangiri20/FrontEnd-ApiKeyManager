@@ -37,6 +37,11 @@ html{
     cursor: pointer;
  
 }
+.btn:hover{
+   background-image: linear-gradient( #2471A3 , #062645 , #2471A3 ); 
+  
+
+}
 .btn__del{
     background-color: #CD5C5C;
     color: white ;
@@ -44,6 +49,10 @@ html{
     border: transparent;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.btn__del:hover{
+    background-image: linear-gradient( #2471A3 , #062645 , #2471A3 ); 
+
 }
 .btn__edit{
     background-color: #2471A3;
@@ -53,4 +62,7 @@ html{
     border-radius: 0.5rem;
     cursor: pointer;
 
+}
+.btn__edit:hover{
+  background-image: linear-gradient( #2471A3 , #062645 , #2471A3 ); 
 }
